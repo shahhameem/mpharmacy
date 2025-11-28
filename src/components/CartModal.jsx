@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // Redux Imports
 import { useSelector, useDispatch } from 'react-redux';
 import { selectCartItems, selectCartTotal, removeFromCart, clearCart } from '../redux/cartSlice';
